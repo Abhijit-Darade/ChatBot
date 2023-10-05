@@ -119,30 +119,3 @@ $("#chat-form").submit((e) => {
   submitForm();
 });
 
-const typed = new Typed(".chat-input", {
-  strings: [
-    "what is computer",
-    "what is Javascript",
-    "what is HTML",
-    "tell me about ChatBot",
-    "When do you have birthday?",
-    "Tell me about your personality.",
-    "I want a funny joke.",
-    "Can you tell me a joke please?",
-    "Can you tell me something about your creators?",
-    "Are you just a bot?",
-    "Date of your birthday.",
-    "How are you today?",
-    "could you be my friend",
-    "where are you from",
-  ],
-  typeSpeed: 60,
-  backSpeed: 30,
-  backDelay: 1500,
-  showCursor: true,
-  cursorChar: "|",
-  attr: "placeholder",
-  loop: true,
-  bindInputFocusEvents: false,
-  shuffle: true,
-});
