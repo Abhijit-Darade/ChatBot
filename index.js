@@ -94,7 +94,7 @@ const sendAllQuestions = (req, res) => {
 
 const sendWelcomeMessage = (req, res) => {
   res.json({
-    responseText: _.sample(welcomeChat),
+    responseText: _.sample(welcomeChat)
   });
 };
 

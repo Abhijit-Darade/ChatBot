@@ -116,7 +116,7 @@ main {
 
 .name {
     width: 200px;
-    margin-right: 500px;
+    margin: auto;
 }
 
 .chat-msg-box {
@@ -127,6 +127,8 @@ main {
     border-radius: .4em;
     max-width: 75vw;
     margin: 15px 0px 0px 20px;
+    padding-left: 35px;
+    font-size: large;
     box-shadow: #000 2px 2px 6px
 }
 
@@ -135,9 +137,17 @@ main {
 }
 
 .chat-msg-box.clint {
-    background-color: blueviolet;
+    background-color: #616161;
     float: right;
-    margin: 15px 20px 0px 0px
+    margin: 15px 20px 0px 0px;
+    padding-right : 50px;
+    padding-left: 50px;
+    /* padding-top: 25px; */
+}
+
+.chat-msg-box.clint p {
+    font-size: large;
+    text-align: center;
 }
 
 .main-background {

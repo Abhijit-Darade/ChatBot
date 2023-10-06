@@ -1,5 +1,16 @@
 [
   {
+    "questions" : [
+      "hi",
+      "Hi",
+      "hey"
+    ],
+    "answers" : [
+      "Welcome! I'm here to help you with any legal inquiries you may have.",
+      "Hello! I'm your digital legal assistant. How may I be of service?"
+    ]
+  },
+  {
     "questions": [
       "how your day is going",
       "how is your life",
@@ -82,7 +93,7 @@
   },
   {
     "questions": [
-      "What is hindi marriage law?"
+      "What is hindu marriage law?"
     ],
     "answers": [
       "Hindu Marriage Law in India, governed by the Hindu Marriage Act of 1955, applies to Hindus, Buddhists, Jains, and Sikhs. It covers conditions for valid marriages, monogamy, divorce, maintenance, child custody, adoption, and more. The law outlines the legal framework for Hindu marriages and family matters within these communities."
@@ -790,7 +801,7 @@
       "get lost",
       "bye"
     ],
-    "answers": ["See you soon!", "Bye-bye!", "Till next time!", "Bye."]
+    "answers": ["If you have any more legal questions in the future, don't hesitate to return. Goodbye!", "Signing off for now. Don't forget, I'm just a message away whenever you need assistance.", "Goodbye, and remember that the law is on your side. Have a wonderful day!" ]
   },
   {
     "questions": [
