@@ -82,7 +82,7 @@ body {
 }
 
 header {
-    background-color: #54402D;
+    background-color: #342918;
     position: fixed;
     top: 0;
     width: 100vw;
@@ -120,16 +120,16 @@ main {
 }
 
 .chat-msg-box {
-    background-color: #616161;
+    background-color: #342918;
     padding: .5em 1em;
     clear: both;
     float: left;
-    border-radius: .4em;
-    max-width: 75vw;
+    border-radius: 1em;
+    max-width: 48vw;
     margin: 15px 0px 0px 20px;
     padding-left: 35px;
     font-size: large;
-    box-shadow: #000 2px 2px 6px
+    box-shadow: #000 2px 2px 6px;
 }
 
 .chat-msg-box:last-child {
@@ -137,17 +137,19 @@ main {
 }
 
 .chat-msg-box.clint {
-    background-color: #616161;
+    background-color: white;
     float: right;
-    margin: 15px 20px 0px 0px;
+    margin: 15px 0px 0px 0px;
     padding-right : 50px;
     padding-left: 50px;
+    max-width: 48vw;
     /* padding-top: 25px; */
 }
 
 .chat-msg-box.clint p {
     font-size: large;
     text-align: center;
+    color: #342918;
 }
 
 .main-background {
@@ -189,6 +191,13 @@ main {
     display: none
 }
 
+.short-1{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 100px;
+    margin-right: 200px;
+}
+
 .questions.container {
     display: flex;
     flex-direction: column;
@@ -223,38 +232,29 @@ main {
 }
 
 footer {
-    background-color: #282828;
+    background-color: white;
     position: fixed;
     bottom: 0;
     width: 100vw;
     height: 3em;
     display: flex;
     align-items: center;
-    box-shadow: #000 -2px 0 4px 1px;
+    /* box-shadow: #000 -2px 0 4px 1px; */
     padding: 0px 3vw
 }
 
 .chat-input {
-    width: 82vw;
+    width: 65vw;
     height: 2.5em;
-    border-radius: .5em;
-    background: #4c4c4c;
-    border: 2px solid #6e6d6d;
-    padding-left: .5em;
-    color: #dbdbdb
+    border-radius: 15px;
+    background: white;
+    border: 2px solid black;
+    padding-left: 20px;
+    color: black
 }
 
 .chat-input::placeholder {
     color: #9f9f9f
-}
-
-.chat-input:focus {
-    outline: none;
-    border-color: chartreuse
-}
-
-.chat-input:invalid {
-    border-color: orangered
 }
 
 #chat-form {
@@ -265,15 +265,16 @@ footer {
 .chat-submit {
     width: 10vw;
     background: transparent;
-    border: 0
+    border: 0;
+    
 }
 
 .chat-submit svg {
-    fill: orange
+    fill: black;
 }
 
-.chat-submit svg:hover {
-    fill: chartreuse
+.footer {
+    color: white;
 }
 
 .spinner {
@@ -314,6 +315,11 @@ footer {
 
     .question:hover {
         transform: scale(1.1)
+    }
+    .chat-submit {
+        margin : auto;
+        padding-right: 50px;
+        
     }
 }
 
@@ -369,5 +375,7 @@ footer {
         transform: rotateY(180deg)
     }
 }
+
+
 
 /*# sourceMappingURL=compiled.min.css.map */
